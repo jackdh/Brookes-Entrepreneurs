@@ -1,0 +1,14 @@
+Plugin Name: YouTube Featured Video
+Author: Incsub
+
+Change Log:
+----------------------------------------------------------------------
+
+1.1 - 2013-04-02
+----------------------------------------------------------------------
+- Added overlay button image.
+- Added alternative discovery method.
+
+1.0 - 2013-02-21
+----------------------------------------------------------------------
+- Initial release.

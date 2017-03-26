@@ -1,0 +1,3 @@
+[22-Jan-2014 22:49:33 UTC] PHP Catchable fatal error:  Object of class WP_Error could not be converted to string in /home/jackdhco/public_html/be/wp-content/themes/Real/news.php on line 100
+[22-Jan-2014 22:50:32 UTC] PHP Catchable fatal error:  Object of class WP_Error could not be converted to string in /home/jackdhco/public_html/be/wp-content/themes/Real/news.php on line 100
+[22-Jan-2014 22:50:39 UTC] PHP Catchable fatal error:  Object of class WP_Error could not be converted to string in /home/jackdhco/public_html/be/wp-content/themes/Real/taxonomy.php on line 40
