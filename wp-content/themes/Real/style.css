@@ -1,0 +1,841 @@
+/*
+Theme Name: Duhuh 1.0
+Theme URI: http://localhost;
+Description: My first theme
+Author: Jack
+Author URI: http://Localhost;
+Version: 1.0
+License: Private
+License URI: license.txt
+Tags: cool
+*/
+
+@import url('bootstrap/css/bootstrap.min.css'); 
+
+body {
+  padding-bottom: 15px;
+  color: #5a5a5a;
+}
+
+
+/* ==========================================================================
+   Oliver Changes
+   ========================================================================== */
+
+a {
+    color: #3ba8dd!important;
+    text-decoration: none;
+}
+
+a:hover, a:focus {
+    color: #329fd6!important;
+    text-decoration: none;
+}
+.navbar-default .navbar-nav>li>a {
+	color: #777!important;
+}
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+	color: #333!important;
+}
+
+.dropdown-menu>li>a {
+	color: #777!important;
+}
+
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+.breadcrumb {
+	border-radius: 100px;
+
+
+}
+
+.yks-require-description {
+	display: none;
+}
+
+}
+h1, h2 {
+ 	margin: 0;
+ 	}
+/*This is for the title header.php*/
+h1 {
+ 	text-align: center;
+ 	letter-spacing: -3px;
+ 	font-size: 4em;
+ 	}
+h1 a {
+    color: #474747;
+}
+
+h2 {
+ 	color: #ccc;
+ 	font-weight: normal;
+ 	font-size: 1.25em;
+ 	line-height: 1em;
+ 	text-align: center;
+ 	}
+
+ h3 {
+ 	text-transform: uppercase;
+ 	font-size: 3.5em;
+ 	line-height: 1.25em;
+ 	margin: 1% 0;
+ 	color: #000;
+ }
+ .recent-post h3,
+h3#comments,
+#respond h3,
+
+ h4 {
+ 	text-transform: uppercase;
+ 	font-size: 1.2em;
+ 	line-height: 1.25em;
+ 	margin: 2% 0;
+ 	color: #000;
+
+ }
+
+.col-lg-10>h4 {
+	font-weight: bold;
+}
+
+ h4>a {
+ 	color: black;
+ 	font-family: "Lora", arial, sans-serif;
+ }
+
+ /*This is for the small titles.*/
+ h5 {
+	text-transform: uppercase;
+	font-size: .75em;
+	line-height: 1em;
+	color: #474747;
+	padding: 0 0 2% 0;
+	border-bottom: 1px solid #e6e6e6;
+ }
+ h6 {
+    color: #474747;
+    font-weight: normal;
+    font-size: 1em;
+    line-height: 1.5em;
+    text-align: left;
+    margin: 20px 0;
+    }
+ img {
+ 	max-width: 100%;
+ 	height: auto;
+ }
+p {
+	 font-size: 100%;
+ 	line-height: 1.75em;
+}
+ul li {
+    font-size: 1.15em;
+}
+p {
+	 font-size: 1.15em;
+ 	line-height: 1.75em;
+}
+
+
+
+/* ==========================================================================
+   Header
+   ========================================================================== */
+
+
+/*This is the background of the selected nav color.*/
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
+	background-color: transparent;
+}
+
+
+.navbar {
+	margin-bottom: 0;
+	border-radius: 0;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+.navbar-default {
+	background-color: transparent;
+	margin-bottom: 70px;
+}
+	
+.nav>li>a {
+	padding: 20px 25px;
+}
+
+/*Do this when screen size is large*/
+@media (min-width: 812px){
+	.nav>li>a {
+	padding: 20px 35px;
+	}
+}
+
+
+.dropdown-menu {
+	top: 110%;
+	left: -19%;
+}
+
+
+
+
+
+
+
+
+.flex-caption {
+width: 100%;
+text-align: center;
+color: black;
+}
+
+.flexslider {
+    max-width: 931px;
+    max-height: 420px;
+}
+
+.flexslider .slides img {
+    max-width: 931px;
+    max-height: 420px;
+}
+
+.flex-control-nav {
+	bottom: -70px!important;
+}
+
+.flex-direction-nav .flex-next {
+	text-align: center;
+}
+
+.container.footer {
+	width: 90%;
+	padding-top: 150px;
+}
+
+.twiget-feed>ul {
+	padding-left: 0;
+	font-size: 18px;
+}
+
+
+
+/*Info on post*/
+ ul.info {
+	padding: 0;
+ 	font-size: 1em;
+ }
+ ul.info li {
+ 	list-style: none;
+ 	margin: 0 2% 0 0;
+	padding: 1% 0;
+ }
+
+ ul.info li, .excerpt, .post-link {
+ 	 	float: left;
+ }
+
+.info-video >h5 {
+	display: none;
+}
+
+
+/* ==========================================================================
+   committee
+   ========================================================================== */
+
+.container .committee {
+	max-width: 1370px;
+}
+
+.background-wrap {
+	border: 1px solid #eee;
+	border-bottom-right-radius: 50px;
+	border-top-left-radius: 100px;
+	background-color: lightblue;
+	padding-top: 35px;
+	padding-bottom: 35px;
+	margin-bottom: 30px;
+	color: rgba(15, 15, 15, 0.62)!important;
+
+}	
+
+.overflow-committee {
+	max-height: 680px;
+	overflow: auto;
+}
+.overflow-committee>p {
+	line-height: 1.2em;
+}
+
+
+.background-wrap>h5 {
+	border-bottom: none;
+	color: rgba(15, 15, 15, 0.62)!important;
+	font-size: 1.1em;
+	text-transform: none;
+	border-bottom: 2px solid white;
+	text-align: center;
+	letter-spacing: 3px;
+}
+
+.portrait {
+	max-height:200px; 
+	max-width:200px; 
+	border-radius:20px;
+}
+
+/*do this when screen is small*/
+
+@media (max-width: 992px) {
+	.portrait {
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+	.show-when-large {
+	display:none;
+}
+
+}
+
+@media (min-width: 992px) {
+	.show-when-small {
+		display:none;
+	}
+}
+
+
+
+/* ==========================================================================
+   Who are we.
+   ========================================================================== */
+
+
+.who-are-we>h5{
+	font-size: 1.2em;
+}
+
+/* ==========================================================================
+   Contact us
+   ========================================================================== */
+
+.well {
+	min-height: 244px!important;
+}
+.well.newsletter {
+	min-height: 150px!important;
+}
+.hidden>div {
+    display:none;
+}
+
+.visible>div {
+    display:block;
+}
+#mc-embedded-subscribe {
+	margin: 0!important;
+	width: 150px!important;
+}
+/*push*/
+.overflow-contact-us {
+	max-height: 805px;
+	overflow: auto;
+}
+.overflow-contact-us>p {
+	line-height: 1.2em;
+}
+
+/* ==========================================================================
+   Membership
+   ========================================================================== */
+
+   .membership-title-size {
+   	font-size: 1.3em;
+   }
+
+   .modal-dialog {
+   	padding-top: 50px;
+   }
+
+   .gform_wrapper .top_label input.medium, .gform_wrapper .top_label select.medium {
+   	width: 100%!important;
+   }
+
+	.medium {display: block; width: 100%; height: 34px; padding: 6px 12px; font-size: 14px; line-height: 1.42857143; color: #555; background-color: #fff; background-image: none; border: 1px solid #ccc; border-radius: 4px; -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075); box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075); -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s; -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s; transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s; } .medium:focus {border-color: #66afe9; outline: 0; -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6); box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6); } .medium::-moz-placeholder {color: #777; opacity: 1; } .medium:-ms-input-placeholder {color: #777; } .medium::-webkit-input-placeholder {color: #777; } .medium[disabled], .form-control[readonly], fieldset[disabled] .form-control {cursor: not-allowed; background-color: #eee; opacity: 1; }
+
+	.membership-image {
+		height: 200px; 
+		border-radius:20px;
+		margin-bottom:20px;
+		margin: auto;
+		margin-top: 60px;
+	}
+
+/* ==========================================================================
+   Events
+   ========================================================================== */
+
+.events-page .well {
+	min-height: 0!important;	
+}
+.events-page {
+	word-wrap: break-word;
+}
+
+.h5events{
+	margin-bottom: -10px;
+}
+
+.portrait-events {
+	margin-top: 20px;
+}
+
+.date-and-time-events {
+	padding-left: 28px;
+	padding-top: 9px;
+	font-size: 1.1em;
+}
+
+/* ==========================================================================
+   News
+   ========================================================================== */
+
+.row-margin-fix {
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+.container.news {
+	max-width: 1270px;
+}
+
+.bold-this {
+	font-weight: bold;
+	font-size: 1.6em;
+
+}
+
+.news-single>h5 {
+	font-size: 1.1em;
+	letter-spacing: 1.5px;
+}
+.news-single-content {
+	margin-top: 15px;
+}
+
+@media (max-width: 992px) and (min-width: 325px) {
+	img {
+		max-width: 200px;
+	}
+}
+
+/* ==========================================================================
+   Photo's
+   ========================================================================== */
+.single-gallery-padding {
+	margin-top: 30px;
+
+}
+
+
+
+/* ==========================================================================
+   video
+   ========================================================================== */
+
+.portrait-video {
+	max-height:200px; 
+	max-width:160px; 
+	border-radius:10px;
+}
+.single.well>p>a>img { 
+	max-width: 200px;
+	
+}
+
+.overflow-video {
+	padding-bottom:40px;
+	max-height: 680px;
+	overflow: auto;
+}
+
+@media (max-width: 992px) {
+	.overflow-video {
+		padding-top: 30px;
+	}
+}
+
+
+p>a>img {
+	border-radius: 5px;
+}
+
+.video-page{
+	font-size: 105%;
+}
+
+
+.info>h5 {
+	text-align: center;
+}
+
+.info>ul {
+padding: 0;
+font-size: 1em;
+color: white;
+font-weight: bold;
+}
+
+.info>ul li {
+	list-style: none;
+	margin: 0 2% 0 0;
+	padding: 1% 0;
+	color: white;
+
+}
+
+/*.info>ul li, .excerpt, .post-link {
+	 	float: left;
+
+	 	This makes them go in a line and no above each other.
+}*/
+
+.info>ul a, .post-link {
+	  color: rgba(15, 15, 15, 0.62)!important;
+
+
+}
+.post-link {
+	font-size: 1em;
+
+}
+
+.recent-post h3, h3#comments, #respond h3, h4 {
+	text-transform: none;
+
+}
+
+
+
+
+
+/*SINGLE PAGES*/
+.reduce_size, .container.single>.col-lg-10>h1 {
+	font-size: 2.5em;
+	text-align: left;
+}
+.container.single>.col-lg-10>h5 {
+	border: none;
+	padding-top: 20px;
+}
+.container.video>.col-lg-8>h5 {
+	border: none;
+	padding-top: 20px;
+}
+.news-style {
+	border-left: 1px solid #eee;
+	padding-bottom:40px;
+	padding-left: 30px;
+	word-wrap: break-word;
+}
+
+.overflow-news {
+	min-height: 680px;
+	overflow: auto;
+
+}
+
+.video-single>p {
+	text-align: center;
+}
+
+.video-single>h5 {
+	font-size: 1.3em;
+	letter-spacing: 1.5px;
+	border: none;
+	text-align: center;
+	margin-bottom: 0;
+}
+.video-single>h2 {
+	margin-bottom: 20px;
+	margin-top: 0;
+}
+
+
+/*FOOTER*/
+#copyright {
+	border-top: 1px solid #e6e6e6;
+	padding-top: 15px;
+	text-align: center;
+}
+
+.glyths {
+	font-size: 20px;
+	text-align: center;
+	
+}
+.glyths>a {
+	color: #000;
+}
+.tribe-events-widget-link {
+	display: none;
+}
+
+.icon-hover-sign:hover {
+	color: red;
+	-o-transition:0.2s ease-out, background 0.2s ease-in;
+	-ms-transition:0.2s ease-out, background 0.2s ease-in;
+	-moz-transition:0.2s ease-out, background 0.2s ease-in;
+	-webkit-transition:0.2s ease-out, background 0.2s ease-in;         
+	transition:0.2s ease-out, background 0.2s ease-in;
+
+}
+
+
+
+@media (min-width: 768px) {
+	.video-resize {
+		padding-left: 0px; padding-right:350px;
+	}
+
+  	.who-are-we-video>p {
+	max-width: 300px;
+	margin-left: 150px;
+	}
+
+}
+
+/* ==========================================================================
+   inter-magnet
+   ========================================================================== */
+
+
+.intern-magnet-header > h1 {
+	margin-top: -11px;
+	margin-bottom: 30px;
+}
+
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+p.twiget-tweet{
+	font-size: 1em;
+	line-height: 1.4;
+}
+
+.footer_right {
+	max-width: 350px;
+}
+
+.footer-video-responsive {
+	width: 100%;
+	height: auto;
+}
+
+@media (min-width: 767px){
+	.footer-video-responsive {
+	min-width: 350px;
+	min-height: 230px;
+}
+}
+
+#ebcalendar {
+	font-family: 'Times New Roman', arial, sans-serif!important;
+}
+
+.footer_middle>h4 {
+	margin-top: 25px;
+}
+
+.footer_middle>h4>a {
+	color: rgb(71, 71, 71);
+}
+
+.yks-mailchimpFormDivSubmit {
+	margin-top: 15px;
+}
+
+.ykfmc-submit {
+	display:inline-block;
+	margin-bottom:0;
+	font-size:14px;
+	font-weight:400;
+	line-height:1.428571429;
+	text-align:center;
+	white-space:nowrap;
+	vertical-align:middle;
+	cursor:pointer;
+	background-image:none;
+	border:1px solid transparent;
+	border-radius:4px;
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	-ms-user-select:none;
+	-o-user-select:none;
+	user-select:none;
+	padding:6px 12px;
+}
+.ykfmc-submit:hover,.ykfmc-submit:focus {
+	color:#333;
+	text-decoration:none;
+	background-color: #B8B8B8;
+}
+.yks-mailchimpFormDivRowField input:focus {
+	border-color: #66afe9;
+	outline: 0;
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+}
+.yks-mailchimpFormDivRowField input {
+	border-radius: 4px;
+	border: 1px solid #ccc;
+	height: 34px;
+	width: 100%;
+	padding: 6px 12px;
+	webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+	-webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+	-o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+	transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.yks-mailchimpFormDivRow {
+	margin-top: 15px;
+
+}
+
+/* ==========================================================================
+   Nav bar changes
+   ========================================================================== */
+html {
+	overflow-y: auto;
+	/* Kudos to @sami for pointing out that setting the overflow to "auto" instead of "hidden" fixes the keyboard nav bug! */
+	background-color: transparent;
+}
+
+@media only screen and (max-device-width:480px) {
+	html {
+		overflow: auto;
+	}
+}
+
+
+
+
+body.custom {
+
+	background-position: center top;
+	background-image: url(images/bg.jpg);
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 0;
+		left: 0;
+		bottom: 0;
+		right: 10px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 6px;
+}
+
+::-webkit-scrollbar-button:start:decrement,
+::-webkit-scrollbar-button:end:increment {
+    height: 30px;
+    display: block;
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-track-piece {
+    background-color: #fff;
+    -webkit-border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:vertical {
+    height: 50px;
+    background-color: #666;
+    -webkit-border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+    width: 50px;
+    background-color: #666;
+    -webkit-border-radius: 3px;
+}
+
+
+/*Expanding nav */
+
+
+.nav-secondary a:after {
+  clear: both;
+  display: block;
+  content: "";
+  position: relative;
+  width: 0;
+  left: 50%;
+  height: 2px;
+  background: rgba(0, 0, 0, 0.56);
+  -webkit-transition: width 0.2s, left 0.2s;
+  -moz-transition: width 0.2s, left 0.2s;
+  -o-transition: width 0.2s, left 0.2s;
+  transition: width 0.2s, left 0.2s;
+  border-radius: 1px;
+}
+.nav-secondary a:hover:after, .nav-secondary a:focus:after {
+  width: 100%;
+  left: 0;
+}
+
+/* ==========================================================================
+   Fade in
+   ========================================================================== */
+
+
+.fadein-wrap {
+		animation: fadeintext 1.5s;
+	-webkit-animation: fadeintext 1.5s;
+	-moz-animation: fadeintext 1.5s;
+}
+
+@-webkit-keyframes fadeintext {
+  0% {
+   opacity: 0;
+   
+  }
+  50% {
+   opacity: 0;
+   
+  }
+  100% {
+   opacity: 1;
+   
+  }
+}
+
+@-moz-keyframes fadeintext {
+  0% {
+   opacity: 0;
+   
+  }
+  50% {
+   opacity: 0;
+   
+  }
+  100% {
+   opacity: 1;
+   
+  }
+}
